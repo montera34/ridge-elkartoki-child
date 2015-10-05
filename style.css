@@ -16,12 +16,16 @@ Tags: child theme
 /* Quicksand font */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
 
-.mosac-schools:before {
-	content: " | ";
-}
-
 #projects .project.small figcaption {
 	transition: none;
 	transform: none;
 	opacity: 0.8;
+}
+.elkartoki-project-meta {
+	text-align: center;
+	list-style: none;
+}
+.elkartoki-project-meta li {
+	display: inline-block;
+	margin: 0 5px;
 }

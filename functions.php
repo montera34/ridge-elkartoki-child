@@ -6,6 +6,8 @@ function elkartoki_theme_setup() {
 	// Custom taxonomies
 	add_action( 'init', 'elkartoki_build_taxonomies', 0 );
 
+	// load text domain for child theme
+	load_theme_textdomain( 'elkartoki', get_stylesheet_directory_uri() . '/languages' );
 }
 
 // register taxonomies
@@ -16,64 +18,37 @@ function elkartoki_build_taxonomies() {
 		'query_var' => true,
 		'rewrite' => array( 'slug' => 'eskola', 'with_front' => false )
 	));
-}
+} // END register taxonomies
 
-/* RIDGE
- * PARENT
- * THEME
- * REDEFINITIONS
- */
+// generate metadata output for project CPT
+function elkartoki_project_meta() {
 
-/**
- * Generate the project thumb title for the portfolio masonry view
- *
- * @since 1.0
- */
- if( ! function_exists( 'ridge_the_thumb_title' ) ) :
-	 function ridge_the_thumb_title(){
-		 global $post;
-		 global $ttrust_config; // Grabs the isotope classes
-		 $skills_ucfirst    = array();
+	global $post;
+	$fields = array();
+	$fields[__('Date','elkartoki')] = get_the_date();
+	$fields[__('Author','elkartoki')] = get_the_author();
 
-		 // school child theme taxonomy terms
-		 $schools = get_the_terms( $post->ID, 'eskola' );
-		 if ( $schools && ! is_wp_error( $schools ) ) {
-		 	$schools_out = array();
-		 	foreach ( $schools as $school ) { $schools_out[] = $school->name; }
-		 } else { $schools_out = ""; }
-		 
-		 if( ! empty( $ttrust_config['isotope_names'] ) )
-			 $skills = $ttrust_config['isotope_names'];
+	$cats = get_the_terms( $post->ID, 'category' );
+	 if ( $cats && ! is_wp_error( $cats ) ) {
+	 	$cats_out = array();
+		foreach ( $cats as $cat ) { $cats_out[] = $cat->name; }
+		$cats_out = implode(',',$cats_out);
+		$fields[__('Category','elkartoki')] = $cats_out;
+	 }
+	$schools = get_the_terms( $post->ID, 'eskola' );
+	 if ( $schools && ! is_wp_error( $schools ) ) {
+	 	$schools_out = array();
+		foreach ( $schools as $school ) { $schools_out[] = $school->name; }
+		$schools_out = implode(',',$schools_out);
+		$fields[__('Schools','elkartoki')] = $schools_out;
+	 }
 
-		 // Begin building the string with the project title
-		 $output = the_title( '<h2 class="entry-title">', "</h2>\n" );
-
-		 // Add skills if there are any
-		 if( ! empty( $skills ) ) {
-
-			 $output .= "\n<h3>";
-
-			 foreach( $skills as $skill ){
-
-				 $skills_ucfirst[] = ucfirst( esc_attr( $skill ) );
-
-			 }
-
-			 $output .= implode(', ', $skills_ucfirst );
-			 if ( $schools_out != '' ) {
-				$output .= '<span class="mosac-schools">';
-				$output .= __('Schools','elkartoki');
-				$output .= ': ';
-				$output .= implode(', ', $schools_out );
-				$output .= '</span>';
-			 }
-			 $output .= "</h3>";
-
-		 } // if
-
-		 echo $output;
-
-	 } // ridge_the_thumb_title
- endif;
+	$output	= '<ul class="elkartoki-project-meta">';
+	foreach ( $fields as $k=>$f ) {
+		$output .= "<li><strong>".$k."</strong> $f</li>";
+	}
+	$output	.= '</ul>';
+	return $output;
+} // END generate metadata output for project CPT
 
 ?>
