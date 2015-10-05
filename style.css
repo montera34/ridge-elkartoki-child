@@ -15,3 +15,7 @@ Tags: child theme
 
 /* Quicksand font */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+.mosac-schools:before {
+	content: " | ";
+}
