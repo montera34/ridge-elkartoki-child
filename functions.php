@@ -7,7 +7,7 @@ function elkartoki_theme_setup() {
 	add_action( 'init', 'elkartoki_build_taxonomies', 0 );
 
 	// load text domain for child theme
-	load_theme_textdomain( 'elkartoki', get_stylesheet_directory_uri() . '/languages' );
+	load_child_theme_textdomain( 'elkartoki', get_stylesheet_directory() . '/languages' );
 }
 
 // register taxonomies

@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: elkartoki\n"
+"POT-Creation-Date: 2015-10-05 13:57+0100\n"
+"PO-Revision-Date: 2015-10-05 14:40+0100\n"
+"Last-Translator: Alfonso Sánchez Uzábal <skotperez@voragine.net>\n"
+"Language-Team: montera34 <info@montere34.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../content-project.php:43
+#, php-format
+msgid "Continue reading %s"
+msgstr "Continuar leyendo %s"
+
+#: ../content-project.php:48
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: ../content-project.php:52
+msgid "Page"
+msgstr "Página"
+
+#: ../content-project.php:61
+msgid "Edit This Post"
+msgstr "Editar esta entrada"
+
+#: ../functions.php:17
+msgid "School"
+msgstr "Escuela"
+
+#: ../functions.php:28
+msgid "Date"
+msgstr "Fecha"
+
+#: ../functions.php:29
+msgid "Author"
+msgstr "Autor"
+
+#: ../functions.php:36
+msgid "Category"
+msgstr "Categoría"
+
+#: ../functions.php:43
+msgid "Schools"
+msgstr "Escuelas"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "¡Vaya! Página no encontrada."
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try a search?"
+#~ msgstr ""
+#~ "Ningún contenido encontrado por aquí. Puedes probar a hacer una búsqueda."
+
+#~ msgid "Published by"
+#~ msgstr "Publicado por"
+
+#~ msgid "View all posts by %s"
+#~ msgstr "Ver todos los artículos de %s"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navegación de comentarios"
+
+#, fuzzy
+#~ msgid "&larr; Older Comments"
+#~ msgstr "Comentarios anteriores"
+
+#, fuzzy
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "Comentarios posteriores"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Los comentarios están cerrados."
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Nothing Found"
+#~ msgstr "Nada encontrado"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "¿Preparado para publicar tu primer artículo? <a href=\"%1$s\">Empieza "
+#~ "aquí</a>."
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "No hemos encontrado ningún resultado para esta búsqueda. Puedes probar de "
+#~ "nuevo, cambiando los términos de la búsqueda."
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Parece que no podemos encontrar lo que buscas. Quizás puedas encontrarlo "
+#~ "usando el buscador."
+
+#, fuzzy
+#~ msgid "Main Menu"
+#~ msgstr "Menú"
+
+#~ msgid "Skip to content"
+#~ msgstr "Saltar al contenido"
+
+#, fuzzy
+#~ msgid "Projects"
+#~ msgstr "Proyecto anterior"
+
+#, fuzzy
+#~ msgid "Project"
+#~ msgstr "Proyecto anterior"
+
+#~ msgid "Add New"
+#~ msgstr "Añadir nuevo"
+
+#, fuzzy
+#~ msgid "Add New Project"
+#~ msgstr "Proyecto anterior"
+
+#, fuzzy
+#~ msgid "Edit Project"
+#~ msgstr "Proyecto anterior"
+
+#, fuzzy
+#~ msgid "New Project"
+#~ msgstr "Proyecto anterior"
+
+#, fuzzy
+#~ msgid "View Project"
+#~ msgstr "Proyecto anterior"
+
+#, fuzzy
+#~ msgid "Search Projects"
+#~ msgstr "Resultados de búsqueda"
+
+#, fuzzy
+#~ msgid "No projects found"
+#~ msgstr "Ningún resultado"
+
+#, fuzzy
+#~ msgid "No projects found in Trash"
+#~ msgstr "Ningún resultado"
+
+#, fuzzy
+#~ msgid "Parent Project"
+#~ msgstr "Proyecto anterior"
+
+#~ msgid "Skills"
+#~ msgstr "Categorías"
+
+#~ msgid "Skill"
+#~ msgstr "Categoría"
+
+#, fuzzy
+#~ msgid "Search Skills"
+#~ msgstr "Resultados de búsqueda"
+
+#~ msgid "All Skills"
+#~ msgstr "Todas las categorías"
+
+#~ msgid "Parent Skill"
+#~ msgstr "Categoría superior"
+
+#~ msgid "Parent Skill:"
+#~ msgstr "Categoría superior:"
+
+#~ msgid "Edit Skill"
+#~ msgstr "Editar categoría"
+
+#~ msgid "Update Skill"
+#~ msgstr "Actualizar categoría"
+
+#~ msgid "Add New Skill"
+#~ msgstr "Añadir nueva categoría"
+
+#~ msgid "New Skill Name"
+#~ msgstr "Nombre de la nueva categoría"
+
+#~ msgid "Associated Skills"
+#~ msgstr "Categorías relacionadas"
+
+#~ msgid "Testimonials"
+#~ msgstr "Colaborador"
+
+#~ msgid "Testimonial"
+#~ msgstr "Colaboradores"
+
+#~ msgid "All Testimonials"
+#~ msgstr "Todos los colaboradores"
+
+#~ msgid "Add New Testimonial"
+#~ msgstr "Añadir un nuevo colaborador"
+
+#~ msgid "Edit Testimonial"
+#~ msgstr "Editar colaborador"
+
+#~ msgid "New Testimonial"
+#~ msgstr "Nuevo colaborador"
+
+#~ msgid "View Testimonial"
+#~ msgstr "Ver colaborador"
+
+#, fuzzy
+#~ msgid "Search Testimonials"
+#~ msgstr "Resultados de búsqueda"
+
+#, fuzzy
+#~ msgid "No testimonials found"
+#~ msgstr "Ningún resultado"
+
+#~ msgid "No testimonials found in Trash"
+#~ msgstr "Ningún colaborador encontrado en la papelera"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Favicon"
+#~ msgstr "Favicon"
+
+#~ msgid "Ridge Options"
+#~ msgstr "Opciones de Ridge"
+
+#~ msgid "The following settings will customize Ridge."
+#~ msgstr "Las siguientes opciones personalizarán Ridge."
+
+#~ msgid "Banner"
+#~ msgstr "Imagen de cabecera"
+
+#~ msgid "Banner Image Contents"
+#~ msgstr "Contenido sobre la imagen de cabecera"
+
+#~ msgid "Footer"
+#~ msgstr "Pie de página"
+
+#~ msgid "Footer Text"
+#~ msgstr "Texto principal del pie de página"
+
+#~ msgid "Secondary Footer Text"
+#~ msgstr "Texto secundario del pie de página"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Estilos CSS personalizados"
+
+#~ msgid "Add your own custom CSS."
+#~ msgstr "Añade tus estilos CSS."
+
+#~ msgid "CSS"
+#~ msgstr "CSS"
+
+#~ msgid "Page Background Color"
+#~ msgstr "Color de fondo de la página"
+
+#~ msgid "Accent Color"
+#~ msgstr "Color para elementos destacados"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Color de fondo de la cabecera"
+
+#~ msgid "Menu Color"
+#~ msgstr "Color para elementos del menú"
+
+#~ msgid "Menu Active Color"
+#~ msgstr "Color para elementos activos del menú"
+
+#~ msgid "Widget Color"
+#~ msgstr "Color para la zona de widgets"
+
+#~ msgid "Link Color"
+#~ msgstr "Color para los enlaces"
+
+#~ msgid "Link Hover Color"
+#~ msgstr "Color al pasar el cursor sobre los enlaces"
+
+#~ msgid "Text Color"
+#~ msgstr "Color del texto"
+
+#~ msgid "Page %s"
+#~ msgstr "Página %s"
+
+#~ msgid "Read More"
+#~ msgstr "Seguir leyendo"
+
+#~ msgid "Post navigation"
+#~ msgstr "Navegación de entradas"
+
+#~ msgid "View all posts in %s"
+#~ msgstr "Ver todos las entradas en %s"
+
+#~ msgid "By %1$s on %2$s %3$s<br /> "
+#~ msgstr "Por %1$s el %2$s %3$s<br /> "
+
+#~ msgid "All"
+#~ msgstr "Todo"
+
+#, fuzzy
+#~ msgid "Comment"
+#~ msgstr "comentarios"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "comentarios"
+
+#~ msgid "Sidebar Widget Area"
+#~ msgstr "Zona de widgets"
+
+#~ msgid "Widgets here to appear in your sidebar."
+#~ msgstr "Estos módulos aparecerán en tu barra lateral."
+
+#~ msgid "Display a random testimonial."
+#~ msgstr "Mostrar un colaborador al azar."
+
+#~ msgid "Title:"
+#~ msgstr "Título"
+
+#, fuzzy
+#~ msgid "Search Results for: %s"
+#~ msgstr "Resultados de la búsqueda"
+
+#~ msgid "Page not found"
+#~ msgstr "Página no encontrada"
+
+#~ msgid "The requested page has not been found"
+#~ msgstr "La página solicitada no ha sido encontrada"
+
+#~ msgid "No posts available"
+#~ msgstr "No hay entradas disponibles"
+
+#~ msgid "No comments"
+#~ msgstr "Ningún comentario"
+
+#~ msgid "One comment"
+#~ msgstr "Un comentario"
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "E-mail"
+#~ msgstr "Correo electrónico"
+
+#~ msgid "Website"
+#~ msgstr "Sitio web"
+
+#~ msgid "Your comment"
+#~ msgstr "Tu comentario"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Comentar"
+
+#~ msgid "Submit comment"
+#~ msgstr "Enviar comentario"
+
+#~ msgid "Leave a reply to"
+#~ msgstr "Responder a"
+
+#~ msgid "Cancel reply"
+#~ msgstr "Cancelar respuesta"
+
+#~ msgid "Call to action section title"
+#~ msgstr "Título de la sección"
+
+#~ msgid "Call to action section description"
+#~ msgstr "Descripción"
+
+#~ msgid "Call to action button text"
+#~ msgstr "Texto del botón"
+
+#~ msgid "Copyright"
+#~ msgstr "Copyright"
+
+#~ msgid "Pingback:"
+#~ msgstr "Pingback:"
+
+#~ msgid "Reply"
+#~ msgstr "Respuesta"
+
+#~ msgid "Tag"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Back to gallery"
+#~ msgstr "Volver al mosaico"
+
+#~ msgid "Next project"
+#~ msgstr "Proyecto siguiente"
+
+#~ msgid "Related Projects"
+#~ msgstr "Proyectos relacionados"
+
+#~ msgid "Share"
+#~ msgstr "Compartir"
+
+#~ msgid "An error occurred. Message not sent."
+#~ msgstr "Se produjo un problema. El mensaje no fue enviado."
+
+#~ msgid "Please complete all the fields correctly"
+#~ msgstr "Por favor, completa todos los campos adecuadamente"
+
+#~ msgid "Message sent"
+#~ msgstr "Mensaje enviado"
+
+#~ msgid "Your e-mail"
+#~ msgstr "Correo electrónico"
+
+#~ msgid "Send"
+#~ msgstr "Emviar"
+
+#~ msgid "E-mail address"
+#~ msgstr "Dirección de correo electrónico"
+
+#~ msgid "Your message"
+#~ msgstr "Mensaje"
+
+#~ msgid "Insert the text from the image"
+#~ msgstr "Añade el texto de la imagen"
+
+#~ msgid "Get a new challenge"
+#~ msgstr "Nueva pregunta"
+
+#~ msgid "Send Message"
+#~ msgstr "Enviar mensaje"
+
+#~ msgid "Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "Next"
+#~ msgstr "Siguiente"
+
+#~ msgid "by"
+#~ msgstr "por"
+
+#~ msgid "in"
+#~ msgstr "en"
+
+#~ msgid "Post tags"
+#~ msgstr "Etiquetas"
+
+#~ msgid "Search"
+#~ msgstr "Búsqueda"
+
+#~ msgid "Categories"
+#~ msgstr "Categorías"
+
+#~ msgid "Monthly archive"
+#~ msgstr "Archivo por meses"
+
+#~ msgid "Post List"
+#~ msgstr "Listado de entradas"
