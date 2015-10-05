@@ -19,3 +19,9 @@ Tags: child theme
 .mosac-schools:before {
 	content: " | ";
 }
+
+#projects .project.small figcaption {
+	transition: none;
+	transform: none;
+	opacity: 0.8;
+}
