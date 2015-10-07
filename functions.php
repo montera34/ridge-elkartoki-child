@@ -12,7 +12,7 @@ function elkartoki_theme_setup() {
 
 // register taxonomies
 function elkartoki_build_taxonomies() {
-	register_taxonomy( 'eskola', 'project', array(
+	register_taxonomy( 'eskola', 'post', array(
 		'hierarchical' => true,
 		'label' => __('School','elkartoki' ),
 		'query_var' => true,
