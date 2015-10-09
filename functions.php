@@ -24,7 +24,7 @@ function elkartoki_build_taxonomies() {
 } // END register taxonomies
 
 // generate metadata output for project CPT
-function elkartoki_project_meta() {
+function elkartoki_post_meta() {
 
 	global $post;
 	$fields = array();
