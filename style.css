@@ -29,3 +29,11 @@ Tags: child theme
 	display: inline-block;
 	margin: 0 5px;
 }
+/* colaboradores imgs */
+.testimonial.small img.wp-post-image {
+	width: auto;
+	height: auto;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
