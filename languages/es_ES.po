@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: elkartoki\n"
-"POT-Creation-Date: 2015-10-05 13:57+0100\n"
-"PO-Revision-Date: 2015-10-05 14:40+0100\n"
+"POT-Creation-Date: 2015-10-09 12:06+0100\n"
+"PO-Revision-Date: 2015-10-09 12:08+0100\n"
 "Last-Translator: Alfonso Sánchez Uzábal <skotperez@voragine.net>\n"
 "Language-Team: montera34 <info@montere34.com>\n"
 "Language: es_ES\n"
@@ -16,42 +16,59 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../content-project.php:43
-#, php-format
-msgid "Continue reading %s"
-msgstr "Continuar leyendo %s"
-
-#: ../content-project.php:48
+#: ../content-single.php:22
 msgid "Pages:"
 msgstr "Páginas:"
 
-#: ../content-project.php:52
-msgid "Page"
-msgstr "Página"
-
-#: ../content-project.php:61
+#: ../content-single.php:29
 msgid "Edit This Post"
 msgstr "Editar esta entrada"
 
-#: ../functions.php:17
+#: ../functions.php:20
 msgid "School"
 msgstr "Escuela"
 
-#: ../functions.php:28
+#: ../functions.php:31
 msgid "Date"
 msgstr "Fecha"
 
-#: ../functions.php:29
+#: ../functions.php:32
 msgid "Author"
 msgstr "Autor"
 
-#: ../functions.php:36
+#: ../functions.php:39
 msgid "Category"
 msgstr "Categoría"
 
-#: ../functions.php:43
+#: ../functions.php:46
 msgid "Schools"
 msgstr "Escuelas"
+
+#: ../functions.php:88
+msgid "Mosaic category filters (only for the Posts Masonry template)"
+msgstr "Filtros para el mosaico (sólo para la plantilla Posts Masonry)"
+
+#: ../functions.php:96
+msgid "Filters"
+msgstr "Filtros"
+
+#: ../functions.php:97
+msgid ""
+"Add new filters with the blue button; drag and drop the select boxes to "
+"order the filters."
+msgstr ""
+"Añade nuevos filtros con el botón azul; arrastra y suelta los desplegables "
+"para ordenar los filtros."
+
+#: ../functions.php:142
+msgid "All"
+msgstr "Todo"
+
+#~ msgid "Continue reading %s"
+#~ msgstr "Continuar leyendo %s"
+
+#~ msgid "Page"
+#~ msgstr "Página"
 
 #~ msgid "Oops! That page can&rsquo;t be found."
 #~ msgstr "¡Vaya! Página no encontrada."
@@ -300,9 +317,6 @@ msgstr "Escuelas"
 
 #~ msgid "By %1$s on %2$s %3$s<br /> "
 #~ msgstr "Por %1$s el %2$s %3$s<br /> "
-
-#~ msgid "All"
-#~ msgstr "Todo"
 
 #, fuzzy
 #~ msgid "Comment"

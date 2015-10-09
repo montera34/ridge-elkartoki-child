@@ -85,7 +85,7 @@ function elkartoki_extra_metaboxes( $meta_boxes ) {
 	// Project meta boxex
 	$meta_boxes[] = array(	
 		'id' => 'filters',// Meta box id, UNIQUE per meta box. Optional since 4.1.5
-		'title' => __('Mosaic category filters (only for the Posts Masonry)'), // Meta box title - Will appear at the drag and drop handle bar. Required.	
+		'title' => __('Mosaic category filters (only for the Posts Masonry template)'), // Meta box title - Will appear at the drag and drop handle bar. Required.	
 		'post_types' => array( 'page' ), // Post types, accept custom post types as well - DEFAULT is 'post'. Can be array (multiple post types) or string (1 post type). Optional.
 		'context' => 'normal', // Where the meta box appear: normal (default), advanced, side. Optional.	
 		'priority' => 'high',// Order of meta box: high (default), low. Optional.	
