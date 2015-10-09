@@ -39,10 +39,13 @@ get_header();
 			 */
 
 			// FilterNav output
-			ridge_filter_nav('post');
+			//ridge_filter_nav();
+			//ridge_filter_nav('post');
+			elkartoki_filter_nav('post');
 
 			// Get the projects WP_Query object
-			$projects = ridge_posts_setup( 'post' );
+			//$projects = ridge_posts_setup('project');
+			$projects = ridge_posts_setup('post');
 
 			?>
 
@@ -53,9 +56,9 @@ get_header();
 						global $ttrust_config;
 
 						// Get the skills for each project for the .js data attribute
-						$skills = ridge_get_tax( $post );
-
-						get_template_part( 'content', 'project-small-masonry' ); ?>
+//						$skills = ridge_get_tax( $post );
+//print_r($skills);
+						get_template_part( 'content', 'post-small-masonry' ); ?>
 
 					<?php endwhile; ?>
 				</div><!-- .thumbs -->
