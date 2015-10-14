@@ -3,6 +3,9 @@
 add_action( 'after_setup_theme', 'elkartoki_theme_setup' );
 function elkartoki_theme_setup() {
 
+	/* Load JavaScript files */
+	add_action( 'wp_print_scripts', 'elkartoki_load_frontend_scripts',100);
+
 	// Custom taxonomies
 	add_action( 'init', 'elkartoki_build_taxonomies', 0 );
 
@@ -12,6 +15,20 @@ function elkartoki_theme_setup() {
 	/* Meta Box plugin CF registration */
 	add_filter( 'rwmb_meta_boxes', 'elkartoki_extra_metaboxes' );
 }
+
+// load js scripts to avoid conflicts
+function elkartoki_load_frontend_scripts() {
+	wp_dequeue_script('ridge-functions');
+//	wp_deregister_script( 'ridge-functions' );
+	wp_enqueue_script(
+		'elkartoki-ridge-functions',
+		get_stylesheet_directory_uri().'/js/theme_trust.js',
+		array( 'jquery' ),
+		'1.0',
+		true
+	);
+
+} // end load frontend js scripts to avoid conflicts
 
 // register taxonomies
 function elkartoki_build_taxonomies() {
@@ -43,7 +60,7 @@ function elkartoki_post_meta() {
 	 	$schools_out = array();
 		foreach ( $schools as $school ) { $schools_out[] = $school->name; }
 		$schools_out = implode(',',$schools_out);
-		$fields[__('Schools','elkartoki')] = $schools_out;
+		$fields[__('School','elkartoki')] = $schools_out;
 	 }
 
 	$output	= '<ul class="elkartoki-project-meta">';
