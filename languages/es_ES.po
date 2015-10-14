@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: elkartoki\n"
-"POT-Creation-Date: 2015-10-09 12:06+0100\n"
-"PO-Revision-Date: 2015-10-09 12:08+0100\n"
+"POT-Creation-Date: 2015-10-14 17:18+0100\n"
+"PO-Revision-Date: 2015-10-14 17:34+0100\n"
 "Last-Translator: Alfonso Sánchez Uzábal <skotperez@voragine.net>\n"
 "Language-Team: montera34 <info@montere34.com>\n"
 "Language: es_ES\n"
@@ -24,35 +24,31 @@ msgstr "Páginas:"
 msgid "Edit This Post"
 msgstr "Editar esta entrada"
 
-#: ../functions.php:20
+#: ../functions.php:37 ../functions.php:63
 msgid "School"
 msgstr "Escuela"
 
-#: ../functions.php:31
+#: ../functions.php:48
 msgid "Date"
 msgstr "Fecha"
 
-#: ../functions.php:32
+#: ../functions.php:49
 msgid "Author"
 msgstr "Autor"
 
-#: ../functions.php:39
+#: ../functions.php:56
 msgid "Category"
 msgstr "Categoría"
 
-#: ../functions.php:46
-msgid "Schools"
-msgstr "Escuelas"
-
-#: ../functions.php:88
+#: ../functions.php:105
 msgid "Mosaic category filters (only for the Posts Masonry template)"
 msgstr "Filtros para el mosaico (sólo para la plantilla Posts Masonry)"
 
-#: ../functions.php:96
+#: ../functions.php:113
 msgid "Filters"
 msgstr "Filtros"
 
-#: ../functions.php:97
+#: ../functions.php:114
 msgid ""
 "Add new filters with the blue button; drag and drop the select boxes to "
 "order the filters."
@@ -60,9 +56,12 @@ msgstr ""
 "Añade nuevos filtros con el botón azul; arrastra y suelta los desplegables "
 "para ordenar los filtros."
 
-#: ../functions.php:142
+#: ../functions.php:159
 msgid "All"
 msgstr "Todo"
+
+#~ msgid "Schools"
+#~ msgstr "Escuelas"
 
 #~ msgid "Continue reading %s"
 #~ msgstr "Continuar leyendo %s"
