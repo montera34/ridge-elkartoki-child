@@ -13,9 +13,6 @@ Tags: child theme
 
 @import url("../ridge/style.css");
 
-/* Quicksand font */
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
-
 #projects .project.small figcaption {
 	transition: none;
 	transform: none;
@@ -36,4 +33,18 @@ Tags: child theme
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
+}
+
+/* tipography */
+.site-header {
+	font-family: Quicksand, sans-serif;
+	font-weight: 700;
+}
+#filter-nav li a,
+#projects .project.small figcaption .inner h2 ,
+.entry-header h1.entry-title,
+h2.entry-title,
+.page-header h1.page-title {
+	font-family: Quicksand, sans-serif;
+	font-weight: 400;
 }

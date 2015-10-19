@@ -177,4 +177,49 @@ if( ! function_exists( 'elkartoki_filter_nav' ) ) :
 	} // ridge_filter_nav
 endif;
 
+
+/* REDEFINITIONS
+ * OF RIDGE
+ * PARENT THEME
+ * FUNCTIONS
+ */
+
+/**
+ * Register Google Fonts
+ *
+ * @since 1.0
+ *
+ * @return string $fonts_url Google fonts URL for the theme.
+ */
+function ridge_fonts_url() {
+
+	$fonts_url = '';
+
+	/* Translators: If there are characters in your language that are not
+	 * supported by Lato, translate this to 'off'. Do not translate
+	 * into your own language.
+	 */
+	$lato = _x( 'on', 'Lato font: on or off', 'ridge' );
+
+	if ( 'off' !== $lato || 'off' !== $lato ) {
+		$font_families = array();
+
+		if ( 'off' !== $lato ) {
+			$font_families[] = 'Quicksand:400,700,300';
+		}
+
+		$query_args = array(
+			'family' => urlencode( implode( '|', $font_families ) ),
+			'subset' => urlencode( 'latin,latin-ext' ),
+		);
+
+		$fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
+
+	} // if()
+
+	return $fonts_url;
+
+} // ridge_fonts_url
+
+
 ?>
