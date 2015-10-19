@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ridge Theme\n"
+"POT-Creation-Date: 2015-10-14 18:03+0100\n"
+"PO-Revision-Date: 2015-10-20 00:19+0100\n"
+"Last-Translator: Alfonso Sánchez Uzábal <skotperez@voragine.net>\n"
+"Language-Team: Ttipi Studio <ane.abarrategi@ttipistudio.com>\n"
+"Language: eu_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../content-single.php:22
+msgid "Pages:"
+msgstr "Orriak"
+
+#: ../content-single.php:29
+msgid "Edit This Post"
+msgstr "Sarrera hau editatu"
+
+#: ../functions.php:37 ../functions.php:63
+msgid "School"
+msgstr "Eskola"
+
+#: ../functions.php:48
+msgid "Date"
+msgstr "Data"
+
+#: ../functions.php:49
+msgid "Author"
+msgstr "Egilea"
+
+#: ../functions.php:56
+msgid "Category"
+msgstr "Kategoria"
+
+#: ../functions.php:105
+msgid "Mosaic category filters (only for the Posts Masonry template)"
+msgstr ""
+"Mosaiko batentzako iragazkiak (Posts Masonry txantiloiarentzat bakarrik)"
+
+#: ../functions.php:113
+msgid "Filters"
+msgstr "Iragazkiak"
+
+#: ../functions.php:114
+msgid ""
+"Add new filters with the blue button; drag and drop the select boxes to "
+"order the filters."
+msgstr ""
+
+#: ../functions.php:159
+msgid "All"
+msgstr "Iragazkiak"
