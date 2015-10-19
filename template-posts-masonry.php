@@ -15,6 +15,7 @@ get_header();
 	<div id="primary" class="content-area middle portfolio">
 		<main id="main" class="site-main " role="main">
 
+			<div id="elkartoki-tagline"><?php echo get_bloginfo('description'); ?></div>
 			<?php
 
 			// Don't show the description for the front page

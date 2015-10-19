@@ -13,10 +13,25 @@ Tags: child theme
 
 @import url("../ridge/style.css");
 
+/* home masonry mosaic */
+#elkartoki-tagline {
+	margin: 40px 3.5% 0;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	line-height: 1em;
+	color: #fd5a5d;
+	letter-spacing: 3px;
+}
 #projects .project.small figcaption {
 	transition: none;
 	transform: none;
 	opacity: 0.8;
+}
+#projects .project.small .inside:hover figcaption {
+	background-color: #fd5a5d;
+}
+#projects .project.small .inside:hover h2 {
+	color: #fff;
 }
 .elkartoki-project-meta {
 	text-align: center;
@@ -26,7 +41,16 @@ Tags: child theme
 	display: inline-block;
 	margin: 0 5px;
 }
-/* colaboradores imgs */
+#filter-nav li a:hover,
+.main-navigation a:hover,
+a:hover,
+a:focus,
+p a.read-more:hover {
+	color: #fd5a5d;
+	opacity: 1;
+}
+
+/* colaboradores */
 .testimonial.small img.wp-post-image {
 	width: auto;
 	height: auto;
@@ -34,9 +58,21 @@ Tags: child theme
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 }
+.testimonial .inside:hover {
+	background-color: #fd5a5d !important;
+}
+.testimonial.small .inside:hover h3 {
+	color: #fff;;
+}
+.testimonial.small h3 span {
+	visibility: hidden;
+	display: none !important;
+}
 
 /* tipography */
-.site-header {
+#elkartoki-tagline,
+.site-header,
+.testimonial.small h3 {
 	font-family: Quicksand, sans-serif;
 	font-weight: 700;
 }
