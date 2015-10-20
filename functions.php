@@ -27,6 +27,13 @@ function elkartoki_load_frontend_scripts() {
 		'1.0',
 		true
 	);
+	wp_enqueue_script(
+		'elkartoki-functions',
+		get_stylesheet_directory_uri().'/js/elkartoki.js',
+		array( 'jquery' ),
+		'1.0',
+		true
+	);
 
 } // end load frontend js scripts to avoid conflicts
 

@@ -21,7 +21,8 @@ $skills_class = $skills['isotope_class'];
 
 						<figcaption>
 							<div class="inner">
-								<?php ridge_the_thumb_title(); /** @see inc/template-tags.php */ ?>
+								<?php // ridge_the_thumb_title(); /** @see inc/template-tags.php */ ?>
+								<h2 class="entry-title"><?php the_title(); ?></h2>
 							</div>
 						</figcaption>
 
