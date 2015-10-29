@@ -17,20 +17,16 @@ html { background-color: #fff; }
 body, input, select, textarea {
 	color: #666
 }
-p {
-	font-size: 1.2em;
-}
-blockquote {
-	font-size: 1em;
-	margin: 0px 2% 20px !important;
-	font-style: normal;
-}
 .site-content,
 .content-area {
 	background-color:#fff;
 }
 footer.site-footer {
 	background: #FFFFFF none repeat scroll 0% 0%;
+}
+footer.site-footer p {
+	margin: 0px 50px !important;
+	font-size: 0.9em;
 }
 
 /* Main Manu */
@@ -148,6 +144,7 @@ h1.entry-title {
 .entry-content {
 	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
 	padding: 0px;
+	font-size: 1.2em;
 }
 .entry-meta,
 .page-meta {
@@ -175,6 +172,29 @@ h1.entry-title {
 	margin-top: 1em;
 	margin-bottom: 0.5em;
 }
+.entry-content blockquote,
+.entry-content p,
+.entry-content li,
+.entry-content ul,
+.entry-content ol {
+	font-size: inherit;
+}
+blockquote {
+	margin: 0px 2% 20px !important;
+	font-style: normal;
+}
+
+/* lang switcher */
+.widget_polylang ul {
+	list-style: none;
+	margin: 0;
+	font-family: Quicksand, sans-serif;
+	font-weight: 400;
+}
+.widget_polylang .current-lang a {
+	font-weight: 700;
+}
+
 
 /* media queries*/
 @media (max-width: 900px) {
