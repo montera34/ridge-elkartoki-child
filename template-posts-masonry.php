@@ -40,30 +40,37 @@ get_header();
 			 */
 
 			// FilterNav output
-			//ridge_filter_nav();
-			//ridge_filter_nav('post');
+			// ridge_filter_nav();
+			// ridge_filter_nav('post');
 			elkartoki_filter_nav('post');
 
 			// Get the projects WP_Query object
-			//$projects = ridge_posts_setup('project');
-			$projects = ridge_posts_setup('post');
-
+			// $projects = ridge_posts_setup('project');
+			// $projects = ridge_posts_setup('post');
+			$paged = ( get_query_var('page') ) ? get_query_var('page') : 1;
+			$args = array(
+				'post_type' => 'post',
+				'nopaging' => false,
+				'paged' => $paged
+			);
+			$projects = new WP_Query( $args );
 			?>
 
 			<div id="projects" class="masonry">
 				<div class="thumbs clearfix">
-					<?php  while ( $projects->have_posts()) : $projects->the_post();
+					<?php while ( $projects->have_posts()) : $projects->the_post();
 
 						global $ttrust_config;
 
 						// Get the skills for each project for the .js data attribute
-//						$skills = ridge_get_tax( $post );
-//print_r($skills);
+						// $skills = ridge_get_tax( $post );
+						// print_r($skills);
 						get_template_part( 'content', 'post-small-masonry' ); ?>
 
 					<?php endwhile; ?>
 				</div><!-- .thumbs -->
 			</div><!-- #projects -->
+			<?php include "navigation.php"; ?>
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
